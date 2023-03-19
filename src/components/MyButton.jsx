@@ -3,7 +3,7 @@ import { Button, Tooltip } from 'antd';
 
 export default function MyButton(props) {
     return (
-        <Tooltip title={props.tooltips}>
+        <Tooltip title={props.tooltip}>
             <Button
                 shape='round'
                 type='primary'
