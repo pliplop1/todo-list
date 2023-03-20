@@ -29,7 +29,7 @@ export default function ListForm(props) {
             <label htmlFor='color'>Couleur</label>
             <Input
                 type='color'
-                oneChange={handleChange}
+                onChange={handleChange}
                 value={props.color}
                 name='color'
                 id='color'
